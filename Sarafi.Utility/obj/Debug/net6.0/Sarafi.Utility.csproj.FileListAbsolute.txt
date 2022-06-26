@@ -1,0 +1,12 @@
+C:\Users\Administrator\source\repos\Sarafi\Sarafi.Utility\bin\Debug\net6.0\Sarafi.Utility.deps.json
+C:\Users\Administrator\source\repos\Sarafi\Sarafi.Utility\bin\Debug\net6.0\Sarafi.Utility.dll
+C:\Users\Administrator\source\repos\Sarafi\Sarafi.Utility\bin\Debug\net6.0\Sarafi.Utility.pdb
+C:\Users\Administrator\source\repos\Sarafi\Sarafi.Utility\obj\Debug\net6.0\Sarafi.Utility.csproj.AssemblyReference.cache
+C:\Users\Administrator\source\repos\Sarafi\Sarafi.Utility\obj\Debug\net6.0\Sarafi.Utility.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Administrator\source\repos\Sarafi\Sarafi.Utility\obj\Debug\net6.0\Sarafi.Utility.AssemblyInfoInputs.cache
+C:\Users\Administrator\source\repos\Sarafi\Sarafi.Utility\obj\Debug\net6.0\Sarafi.Utility.AssemblyInfo.cs
+C:\Users\Administrator\source\repos\Sarafi\Sarafi.Utility\obj\Debug\net6.0\Sarafi.Utility.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\source\repos\Sarafi\Sarafi.Utility\obj\Debug\net6.0\Sarafi.Utility.dll
+C:\Users\Administrator\source\repos\Sarafi\Sarafi.Utility\obj\Debug\net6.0\ref\Sarafi.Utility.dll
+C:\Users\Administrator\source\repos\Sarafi\Sarafi.Utility\obj\Debug\net6.0\Sarafi.Utility.pdb
+C:\Users\Administrator\source\repos\Sarafi\Sarafi.Utility\obj\Debug\net6.0\refint\Sarafi.Utility.dll

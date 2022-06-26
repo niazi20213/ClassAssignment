@@ -1,0 +1,94 @@
+﻿@page
+@model LoginModel
+
+@{
+    ViewData["Title"] = "Log in";
+       Layout = null;
+}
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+       <title>@ViewData["Title"] - Sarafi</title>
+        <link href="https://cdn.jsdelivr.net/npm/simple-datatables@latest/dist/style.css" rel="stylesheet" />
+       
+        <link rel="stylesheet" href="~/css/styles.css"  />
+          <link rel="stylesheet" href="~/css/site.css"  />
+        <script src="https://use.fontawesome.com/releases/v6.1.0/js/all.js" crossorigin="anonymous"></script>
+    </head>
+
+ <body class="bg-primary">
+
+    <div class="col d-flex justify-content-center">
+    <div class="card shadow-lg border-0 rounded-lg mt-5 col-lg-3 col-md-3 col-sm-6 " >
+        <div class="card-header text-center">
+             <img src="~/Images/Exchange.jpg" class="img-thumbnail img-fluid rounded-circle"
+             style="max-height:auto; max-width:100px" />
+        </div>
+      <div class="card-body">
+          <div class="col-md-12">
+        <section>
+            <form id="account" method="post">
+               
+                <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                
+                <div class="form-floating mb-3">
+                    <input asp-for="Input.Email" class="form-control" autocomplete="username"   placeholder="name@example.com" aria-required="true" />
+                    <label asp-for="Input.Email" class="form-label"></label>
+                    <span asp-validation-for="Input.Email" class="text-danger"></span>
+                </div>
+                <div class="form-floating mb-3">
+                    <input asp-for="Input.Password" class="form-control" autocomplete="current-password" placeholder="Password" aria-required="true" />
+                    <label asp-for="Input.Password" class="form-label"></label>
+                    <span asp-validation-for="Input.Password" class="text-danger"></span>
+                </div>
+                <div>
+                    <div class="checkbox">
+                        <label asp-for="Input.RememberMe" class="form-label">
+                            <input class="form-check-input" asp-for="Input.RememberMe" />
+                            @Html.DisplayNameFor(m => m.Input.RememberMe)
+                        </label>
+                    </div>
+                </div>
+                <div class="text-end">
+                    <button id="login-submit" type="submit" class=" btn  btn-primary">Log in</button>
+                </div>
+                <div>
+                    @*<p>
+                        <a id="forgot-password" asp-page="./ForgotPassword">Forgot your password?</a>
+                    </p>
+                    <p>
+                        <a asp-page="./Register" asp-route-returnUrl="@Model.ReturnUrl">Register as a new user</a>
+                    </p>
+                    <p>
+                        <a id="resend-confirmation" asp-page="./ResendEmailConfirmation">Resend email confirmation</a>
+                    </p>*@
+                </div>
+            </form>
+        </section>
+      </div>
+
+    
+    </div>
+  
+   
+</div>
+</div>
+
+
+ </body>
+</html>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
+        <script src="~/js/scripts.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.8.0/Chart.min.js" crossorigin="anonymous"></script>
+
+      
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}

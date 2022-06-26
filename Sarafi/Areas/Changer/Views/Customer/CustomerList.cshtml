@@ -1,0 +1,64 @@
+﻿@model Sarafi.Models.DB.Customer
+@{
+    ViewData["Title"] = "Deposit";
+}
+   <div class="container-fluid px-4 ">
+    <div class="container shadow p-4">
+        
+                <table id="tblcustomerlistfordeposit" class="table table-bordered table-striped " width="100%">
+                    <thead class="bg-primary" style="color:white;">
+                        <tr>
+                        <th>Customer ID</th>
+                        <th>Name</th>
+                        <th>Father Name</th>
+                        <th>Tazkera#</th>
+                        <th>Phone#</th>
+      
+                        <th></th>
+                        </tr>
+                    </thead>
+
+ 
+
+                </table>
+    </div>
+
+
+    <div class="modal fade" id="DepositModal" tabindex="-1" role="dialog" aria-labelledby="DepositModalLabel"
+    aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="DepositModalLabel">Deposit By: Talha</h5>
+          
+            <a class="btn btn-outline-secondary" data-dismiss="modal" aria-label="close"><i class="bi bi-x-square"></i></a>
+          </div>
+          <div class="modal-body">
+            <form method="post" enctype="application/x-www-form-urlencoded">
+              <div class="form-group">
+                <label for="recipient-name" class="col-form-label">Recipient:</label>
+                <input type="text" class="form-control" id="recipient-name">
+              </div>
+              <div class="form-group">
+                <label for="message-text" class="col-form-label">Description:</label>
+                <textarea class="form-control" id="message-text"></textarea>
+              </div>
+            </form>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-primary">Deposit</button>
+          </div>
+        </div>
+      </div>
+
+     
+</div>
+
+
+
+</div>
+
+@section Scripts{
+    <script src="~/js/Deposit.js"></script>
+}
+

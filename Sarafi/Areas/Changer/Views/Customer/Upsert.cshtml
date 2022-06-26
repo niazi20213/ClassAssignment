@@ -1,0 +1,68 @@
+﻿@model Sarafi.Models.DB.Customer
+@{
+    ViewData["Title"] = "Edit";
+}
+<form method="post" enctype="multipart/form-data" >
+<div class="container-fluid px-4">
+<div  class="container shadow p-4">
+<div class="row">
+      <div class="col-12">
+        <div class="border p-3 mt-4 row">
+      
+            <h2 class="text-primary">@(Model.CustomerCode=="" || Model.CustomerCode==null? "Add":"Update") Customer</h2>
+            <hr />
+            
+            <input asp-for="CustomerId" hidden />
+            <input asp-for="CustomerCode" hidden />
+            <div class="mb-3 col-6">
+                <label asp-for="Name"></label>
+                <input asp-for="Name" class="form-control" />
+                <span asp-validation-for="Name" class="text-danger"></span>
+            </div>
+             
+              <div class="mb-3 col-6">
+                <label asp-for="Fname"></label>
+                <input asp-for="Fname" class="form-control" />
+                <span asp-validation-for="Fname" class="text-danger"></span>
+            </div>
+              <div class="mb-3 col-6">
+                <label asp-for="TazkeraNumber"></label>
+                <input asp-for="TazkeraNumber" class="form-control" />
+                  <span asp-validation-for="TazkeraNumber" class="text-danger"></span>
+            </div>
+              <div class="mb-3 col-6">
+                <label asp-for="PhoneNo"></label>
+                <input asp-for="PhoneNo" class="form-control" />
+                <span asp-validation-for="PhoneNo" class="text-danger"></span>
+            </div>
+             <div class="mb-3">
+                <label asp-for="Address"></label>
+                <textarea asp-for="Address" class="form-control" rows="3" ></textarea>
+            </div>
+             <div class="mb-3">
+                <label asp-for="Remarks"></label>
+                <textarea asp-for="Remarks" class="form-control" rows="3" ></textarea>
+            </div>
+              
+            
+          <div class="mb-3 col-6">
+            <button type="submit" class="btn btn-primary ms-3" >@(Model.CustomerCode=="" || Model.CustomerCode==null ?" Save ":"Update")</button>
+            <a asp-controller="Customer" asp-action="Index" class="btn btn-outline-secondary ms-3" >Back To List</a>
+        </div>
+  
+    </div>
+  </div>
+  
+</div>
+</div>
+</div>
+</form>
+
+@section Scripts{
+
+
+    @{
+        <partial name="_ValidationScriptsPartial" />
+    }
+
+}

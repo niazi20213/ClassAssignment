@@ -1,0 +1,12 @@
+C:\Users\Administrator\source\repos\Sarafi\Sarafi.Models\bin\Debug\net6.0\Sarafi.Models.deps.json
+C:\Users\Administrator\source\repos\Sarafi\Sarafi.Models\bin\Debug\net6.0\Sarafi.Models.dll
+C:\Users\Administrator\source\repos\Sarafi\Sarafi.Models\bin\Debug\net6.0\Sarafi.Models.pdb
+C:\Users\Administrator\source\repos\Sarafi\Sarafi.Models\obj\Debug\net6.0\Sarafi.Models.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Administrator\source\repos\Sarafi\Sarafi.Models\obj\Debug\net6.0\Sarafi.Models.AssemblyInfoInputs.cache
+C:\Users\Administrator\source\repos\Sarafi\Sarafi.Models\obj\Debug\net6.0\Sarafi.Models.AssemblyInfo.cs
+C:\Users\Administrator\source\repos\Sarafi\Sarafi.Models\obj\Debug\net6.0\Sarafi.Models.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\source\repos\Sarafi\Sarafi.Models\obj\Debug\net6.0\Sarafi.Models.dll
+C:\Users\Administrator\source\repos\Sarafi\Sarafi.Models\obj\Debug\net6.0\ref\Sarafi.Models.dll
+C:\Users\Administrator\source\repos\Sarafi\Sarafi.Models\obj\Debug\net6.0\Sarafi.Models.pdb
+C:\Users\Administrator\source\repos\Sarafi\Sarafi.Models\obj\Debug\net6.0\Sarafi.Models.csproj.AssemblyReference.cache
+C:\Users\Administrator\source\repos\Sarafi\Sarafi.Models\obj\Debug\net6.0\refint\Sarafi.Models.dll

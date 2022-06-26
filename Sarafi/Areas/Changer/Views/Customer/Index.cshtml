@@ -1,0 +1,39 @@
+﻿   <div class="container-fluid px-4 ">
+<div class="container shadow p-4">
+    <div class="row pt-4">
+        <div class="col-6">
+            <h2 class="text-primary">Customer List</h2>
+        </div>
+        <div class="col-6 text-end">
+            <a asp-controller="Customer" asp-action="Upsert" class="btn btn-primary">
+                <i class="bi bi-plus-circle"></i> Add Customer</a>
+        </div>
+    </div>
+    <br /><br />
+
+<table id="tblcustomer" class="table table-bordered table-striped " width="100%">
+    <thead class="bg-primary" style="color:white;">
+        <tr>
+        <th>Customer ID</th>
+        <th>Name</th>
+        <th>Father Name</th>
+        <th>Tazkera#</th>
+        <th>Phone#</th>
+         <th>Address</th>
+        <th>Action</th>
+        </tr>
+    </thead>
+
+ 
+
+</table>
+</div>
+
+
+
+
+</div>
+
+@section Scripts{
+    <script src="~/js/Customer.js"></script>
+}

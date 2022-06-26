@@ -1,0 +1,7 @@
+﻿@using Microsoft.AspNetCore.Identity
+
+@inject UserManager<IdentityUser> usermanager
+
+<span>
+    @usermanager.GetUserName(User)!
+</span>
