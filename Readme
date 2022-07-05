@@ -1,5 +1,23 @@
-Dear Respected Teacher, we have created this simple project as per your instruction, its a laryed based application designed in asp.net core MVC for Sarafi System, It's in initial stage of development 
+Dear Respected Teacher, we have created this simple project as per your instruction, its a laryed based application designed in asp.net core MVC for Sarafi System,
+It's in initial stage of development 
 
 
 1: Rahimullah Niazi
 2: Hematullah Perozai
+
+
+Dear Sir, as per your instruction we want ot add something to explain the purpose and modules of this system.
+
+-Actually this is a system is planned to be design for one of the Sarafi here in Kabul to automate or computerize their activities, its a web based decentralized system, contain different modules like 
+
+1: Customer Registration.
+2: Hawala.
+3: Owners/Shareholders Registration. 
+4: Account creation for each shareholder.
+5: Exchange.
+6: Credit and Debit.
+7: Cashbook.
+9: Customer Transaction History/Account Statement.
+10: Notification/alert service.
+11: User Management.
+
